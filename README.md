@@ -60,6 +60,6 @@ Este proyecto muestra el diseño de un modelo de verificación para un Mesh para
 
 Si tienes alguna pregunta o te gustaría discutir alguno de estos proyectos, ¡no dudes en contactarme!
 
-- [Correo Electrónico](estearia20@gmail.com)
-- [LinkedIn](www.linkedin.com/in/e-ariasr)
+- [Correo Electrónico:] estearia20@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/e-ariasr/)
 - [Sitio Web/Portafolio Personal](https://estearia20.wixsite.com/cv-earias)
