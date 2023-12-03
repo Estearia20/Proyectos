@@ -41,6 +41,3 @@ EP: En progreso ($\times 0,8$),
 D: Deficiente ($\times 0,5$),
 NP: No presenta ($\times 0$)
 
-## Importante
-- El uso del repositorio implica que existan contribuciones de todos los miembros del equipo. 
-- La revisión del simulador con el predictor de saltos se deberá realizar antes de las 17:00 del jueves 15 de junio. Para dicha revisión, deberá agendar una cita con antelación.
