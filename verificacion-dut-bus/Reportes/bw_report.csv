@@ -1,0 +1,6 @@
+Cantidad drvrs ,Ancho de banda máximo (Gbps), Ancho de banda mínimo (Gbps)
+  4,0.075000,0.010959
+  8,0.060000,0.010300
+ 12,0.050000,0.009639
+ 16,0.042857,0.009057
+ 32,0.027273,0.007295
