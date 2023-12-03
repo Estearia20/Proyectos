@@ -43,15 +43,15 @@ En este repositorio se muestra como modelar plantas analíticas y empíricamente
 
 El siguiente proyecto muestra el diseño de un procesador RISC V, el cual demandó trabajo en equipo para diseñar e implementar un sistema digital complejo. La parte central de este proyecto consistió en el diseño de un microcontrolador, cuya implementación siguió la arquitectura de computadora existente, RV32i, utilizando **System Verilog**. El programa ejecutado en este microcontrolador coordinó un módulo encargado de controlar las lecturas del sensor de luminosidad (a través de comunicación SPI), un temporizador interno (Timer), las entradas de un teclado USB y switches, así como las salidas hacia LEDs, display de 7 segmentos y puerto serie (RS-232). La complejidad del sistema implementado se manejó mediante una disciplina rigurosa de implementación: cada módulo contó con las pruebas (testbenches) necesarias para garantizar su correcto funcionamiento a nivel de pre- y post-síntesis, así como de implementación. Esto resultó especialmente crucial para el microcontrolador implementado, asegurando que el programa implementado se ejecutara de manera correcta en la FPGA.
 
-## Verificiación Funcional de Circuitos Integrados - DUT Bus de Datos
+## Verificiación Funcional de Circuitos Integrados - DUT - Bus de Datos
 
 Este proyecto muestra el diseño de un modelo de verificación para un bus de datos, especificamente el **Modelo de Aleatorización Controlado en Capas**. Este modelo se diseñó utilizando **System Verilog** donde cada uno de los módulos funcionan por en un proceso aparte. El ambiente de verificación permite crear lo que son reportes en formato **csv** para poder graficar parámetros como lo son la latencia y  ancho de banda al variar valores como el tamaño del paquete de datos a enviar, la profundidad de las FIFO's, esto utilizando **gnuplot**. 
 
-## Verificiación Funcional de Circuitos Integrados - DUT Mesh
+## Verificiación Funcional de Circuitos Integrados - DUT - Mesh 
 
 Este proyecto muestra el diseño de un modelo de verificación para un Mesh para transmitir datos entre terminales, especificamente el **Modelo de Aleatorización Controlado en Capas**. Este modelo se diseñó utilizando **System Verilog** donde cada uno de los módulos funcionan por en un proceso aparte. El ambiente de verificación permite crear lo que son reportes en formato **csv** para poder graficar parámetros como lo son la latencia y  ancho de banda al variar valores como el tamaño del paquete de datos a enviar, la profundidad de las FIFO's, esto utilizando **gnuplot**. 
 
-## Verificiación Funcional de Circuitos Integrados - DUT Mesh - UVM
+## Verificiación Funcional de Circuitos Integrados - DUT - Mesh - UVM
 
 Este proyecto muestra el diseño de un modelo de verificación para un Mesh para transmitir datos entre terminales, especificamente utilizando el modelo de verificación **UVM**. Este modelo se diseñó utilizando **System Verilog** donde cada uno de los módulos funcionan por en un proceso aparte. El ambiente de verificación permite crear lo que son reportes en formato **csv** para poder graficar parámetros como lo son la latencia y  ancho de banda al variar valores como el tamaño del paquete de datos a enviar, la profundidad de las FIFO's, esto utilizando **gnuplot**. 
 
